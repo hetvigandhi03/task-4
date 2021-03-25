@@ -1,0 +1,19 @@
+public static void main(string[ args)
+{
+int choice;
+System.out.println("pick one: 1.Hi\t2. hey\t3. hello");
+Scanner s = new Scanner(System.in);
+choice= s.nextInt();
+switch(choice)
+{
+case1:
+System.out.println("YOU SAID Hi");
+
+case2:
+System.out.println("YOU SAID Hey");
+
+case3:
+System.out.println("YOU SAID Hello");
+}
+
+}
